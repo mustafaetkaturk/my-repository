@@ -13,7 +13,7 @@ def head():
 # and assign to the route of ('/mylist')
 @app.route('/mylist')
 def header():
-    names = ["Altaz","Xi", "Ahmad", "Lucy"]
+    names = ["Mustafa","Etka", "Turk", "There"]
     return render_template("body.html", object = names)
 # run this app in debug mode on your local.
 if __name__ == "__main__":
